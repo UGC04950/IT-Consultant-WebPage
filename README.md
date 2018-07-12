@@ -4,4 +4,4 @@ This Webpage for IT Consultant Services was created to help facilitate people de
  Organizations can take the hassle out of resolving technical problems and provide training to users while maximizing the value of technology in their business.
 
 
-IT Consulting Firm WebPage. Includes Links/descriptions for Cloud Computing Services , Technical Support, and Security.  This app was written in Html and CSS . 
+Includes Links/photos/descriptions for Cloud Computing Services , Technical Support, and Security.  This app was written in Html and CSS . 
