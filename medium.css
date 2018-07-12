@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+/* Layout For Medium Screens */
+
+header{
+height:150px;
+background:url(images/medium-banner.jpg) no-repeat 90% 0px;:
+}
+
+header a.logo{
+width:80px;
+height:80px;
+top:40px;
+right:20px;
+background-image:url(images/medium-logo.png);
+}
+
+
+nav{top:100px;}
+
+nav a{margin-right:5px;}
+
+
+.promo_container{
+padding:0px 20px 15px 20px;
+}
+
+
+.promo_container .promo{
+background-position:0px 0px;	
+}
+
+
+
+.promo_container .promo .content{
+padding:70px 30px 0px 0px;
+}
+
+
+/* Search box starts */
+#tfnewsearch{
+float:right;
+margin-right:10px;
+margin-top:6px;	
+margin-bottom:3px;
+}
+
+
+.tftextinput{
+margin:0;
+padding: 5px 15px;
+width:70px;
+font-family:Arial, Helvetica, sans-serf;
+font-size:14px;
+border:1px solid #0076aca;
+border-right:0px;
+border-top-left-radius:5px 5px;
+border-bottom-left-radius:5px 5px;	
+}
+
+.tfbutton{
+margin:0;
+padding: 5px 15px;
+font-family: Arial, Helvetica, sans-serif;
+font-size:14px;
+outline:none;
+cursor:pointer;
+text-align:center;
+text-decoration:none;
+color:#ffffff;
+border:solid 1px #0076a3;
+border-right:0px;
+background: #0095cd;
+background: -webkit-gradient(linear, left top, left bottom,
+from(#00adee) , to(#0078a5));
+background: -moz-linear-gradient(top, #00adee, #0078a5);
+border-top-right-radius: 5px 5px;
+border-bottom-right-radius: 5px 5px;	
+}
+
+.tfbutton:hover{
+text-decoration:none;
+background: #007ead;	
+background: -webkit-gradient(linear, left top, left bottom,from(#0095cc), to(#00678e));
+backgroun: -moz-linear-gradient(top, #0095cc, #00678e);	
+}
+/* Fixes submit button height problem in Firefox */
+.tfbutton::-moz-focus-inner{border:0;}
+
+/* Search box  ends*/
+
+
+
+
+/* Contact Form Starts */
+
+.big{margin-bottom:3px;line-height:120%;}
+.contact-form{
+width:60%;
+margin-right:20px;
+margin:0 auto;	
+}
+.contact-form input[type=text],
+.contact-form input[type=email],
+select,
+textarea{
+width:100%;
+padding:7px;
+border-radius:5px;
+border:1px solid #ccc;
+margin:0 auto 0px auto;
+float:right;	
+}
+
+textarea{
+height:100px;
+margin-top:20px;
+width:100%;		
+}
+
+input[type=checkbox]
+
+{
+margin:0;
+padding:0;
+}
+
+.contact-form .sent-it-submit{
+background:#eb7e22;
+color:black;
+width:100px;
+height:50px;
+marin-bottom:15px;
+font-size:18px;
+margin-left:100px;
+}
+
+.contact-form .sent-it-submit:hover{
+background:#eb7e22;
+color:pink;
+}
+*:focus{outline:none;}
+
+/* Contact Form Ends */
+
+/* Section Top Image Starts*/
+.section-top-image{padding:0;width:100%;margin-top:-34px;}
+.top-image-showcase{
+list-style:none;
+width:100%;
+}
+
+.top-image-showcase li{
+display:block;float:left;	
+}
+
+.top-image-photo{
+width:100%;overflow:hidden;
+margin-left:-40px;background:#000;		
+}
+
+.top-image-photo img{opacity:0.7width:100%;
+					height:auto;transform:scale(1.15);
+					transition:transform 0.5s;
+}
+/* Section Top Image ends*/
+
+

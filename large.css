@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+
+/* Layout (global rules for all sizes */
+
+
+body{
+margin:0;
+padding:0;
+}
+
+
+
+header a.logo{
+display:block;
+position:absolute;
+background-position: 0px 0px;
+background-repeat:no-repeat;		
+}
+
+nav{
+width:100%;
+display:block;
+position:absolute;
+background-color:orange;		
+}
+
+
+/* Layout Large Screens (default for older browsers) */
+
+
+
+
+header a.logo{
+width:100px;
+height:100px;
+top:50px;	
+right:40px;
+background-image:url(images/large-logo.png);
+}
+
+
+article{
+padding:30px 20px 10px 20px;		
+}
+
+
+.promo_container{
+padding: 0px 0px 15px 20px;	
+}
+
+.promo_container .promo{
+width:33%;
+float:left;
+background-position:-5px 3px;	
+}
+
+.promo_container .promo .content{
+padding:0px 30px 0px 70px;	
+}
+
+nav{
+top:0px;	
+}
+
+nav a{margin:12px 0px 10px 20px;}
+
+
+@media screen and (max-width:990px {
+footer{padding-left:20px;}	
+}
+
+
+
+
+
+
+
+
